@@ -47,7 +47,7 @@ public class OneOfEachStats {
 				max = "4 or more";
 			}
 
-		System.out.println("Avrage: " + (count/T) + " children to get at least one of each gender.");
+		System.out.println("Average: " + (count/T) + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + two);
 		System.out.println("Number of families with 3 children: " + three);
 		System.out.println("Number of families with 4 or more children: " + fourandmore);
