@@ -1,9 +1,19 @@
-/**
- *  Generates and prints random integers in the range [0,10),
- *  as long as they form a non-decreasing sequence.
- */
+
 public class InOrder {
 	public static void main (String[] args) {
-		//// Write your code here
+
+	int num;		
+	int newnum = -1;		
+		
+		do {
+		num = newnum;
+		newnum = (int)((Math.random() * 10));
+		
+			if (num <= newnum) {
+			System.out.print(newnum + " ");
+			}
+		}
+
+		while (num <= newnum );	
 	}
 }
